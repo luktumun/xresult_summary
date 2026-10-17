@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A summary of your test results.">
+    <meta name="theme-color" content="#f7f8fc">
+    <title>Results Summary</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <main class="main" aria-label="Test results summary">
+        <section class="result-panel" aria-labelledby="result-title">
+          <h1 id="result-title">Your Result</h1>
+          <div class="score-circle" aria-label="Score out of 100">
+            <strong id="average-score">76</strong>
+            <span>of 100</span>
+          </div>
+          <h2>Great</h2>
+          <p class="conclusion" id="result-description">
+            You scored higher than 65% of the people who have taken these tests
+          </p>
+        </section>
+
+        <section class="summary-panel" aria-labelledby="summary-title">
+          <h2 id="summary-title">Summary</h2>
+          <ul class="score-list">
+            <li class="score-row reaction">
+              <span class="score-category">
+                <svg class="category-icon" aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"/>
+                </svg>
+                Reaction
+              </span>
+              <span class="score-value"><strong>80</strong><span> / 100</span></span>
+            </li>
+            <li class="score-row memory">
+              <span class="score-category">
+                <svg class="category-icon" aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M5.833 11.667a2.5 2.5 0 1 0 .834 4.858M3.553 13.004a3.333 3.333 0 0 1-.728-5.53m.025-.067a2.083 2.083 0 0 1 2.983-2.824m.199.054A2.083 2.083 0 1 1 10 3.75v12.917a1.667 1.667 0 0 1-3.333 0M10 5.833a2.5 2.5 0 0 0 2.5 2.5m1.667 3.334a2.5 2.5 0 1 1-.834 4.858m3.114-3.491a3.334 3.334 0 0 0 .728-5.53m-.025-.067a2.083 2.083 0 0 0-2.983-2.824M10 3.75a2.085 2.085 0 0 1 2.538-2.033 2.084 2.084 0 0 1 1.43 2.92m-.635 12.03a1.667 1.667 0 0 1-3.333 0"/>
+                </svg>
+                Memory
+              </span>
+              <span class="score-value"><strong>92</strong><span> / 100</span></span>
+            </li>
+            <li class="score-row verbal">
+              <span class="score-category">
+                <svg class="category-icon" aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M7.5 10h5M10 18.333A8.333 8.333 0 1 0 1.667 10c0 1.518.406 2.942 1.115 4.167l-.699 3.75 3.75-.699A8.295 8.295 0 0 0 10 18.333Z"/>
+                </svg>
+                Verbal
+              </span>
+              <span class="score-value"><strong>61</strong><span> / 100</span></span>
+            </li>
+            <li class="score-row visual">
+              <span class="score-category">
+                <svg class="category-icon" aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M10 11.667a1.667 1.667 0 1 0 0-3.334 1.667 1.667 0 0 0 0 3.334ZM17.5 10c-1.574 2.492-4.402 5-7.5 5s-5.926-2.508-7.5-5C4.416 7.632 6.66 5 10 5s5.584 2.632 7.5 5Z"/>
+                </svg>
+                Visual
+              </span>
+              <span class="score-value"><strong>72</strong><span> / 100</span></span>
+            </li>
+          </ul>
+          <button class="btn" type="button">Continue</button>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>Built with ❤️ by <a href="https://github.com/luktumun">Rajendra</a> | Powered by <a href="https://crio.do">Crio</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
