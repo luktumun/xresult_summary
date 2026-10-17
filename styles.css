@@ -181,7 +181,8 @@ body {
   background: #1c1a8a;
 }
 
-.btn:focus {
+.btn:focus,
+.footer a:focus {
   outline: 3px solid #7840ff;
   outline-offset: 3px;
 }
