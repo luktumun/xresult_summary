@@ -182,7 +182,6 @@ body {
 }
 
 button:focus,
-button:focus-visible,
 .footer a:focus,
 .footer a:focus-visible {
   border-style: solid;
@@ -192,6 +191,11 @@ button:focus-visible,
   outline-width: 3px;
   outline-color: #7840ff;
   outline-offset: 3px;
+}
+
+.btn:focus {
+  border: 0;
+  outline: none;
 }
 
 .footer {
